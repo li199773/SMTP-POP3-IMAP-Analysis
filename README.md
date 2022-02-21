@@ -1,1 +1,1 @@
-# SMTP-POP3-IMAP-Analysis
+# SMTP POP3 IMAP mail parsing MySQL distributed storage
