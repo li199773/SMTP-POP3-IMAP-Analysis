@@ -11,7 +11,7 @@
     (1) 以太网数据包
     (1) 网络层:ip len ttl source_ip target_ip
     (2) 传输层:tcp sport dport
-### 5.邮件文字信息解析
+### 5.正则表达式提取邮件文字信息解析
     host_name:主机名
     mail_from:邮件发送方
     mail_to:邮件接收方
