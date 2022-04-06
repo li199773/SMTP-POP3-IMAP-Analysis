@@ -9,7 +9,6 @@
 ### 3.遍历目标文件夹下面的全部pcapng文件
 ### 4.dpkt解析
     (1) 以太网数据包
-    (1) 网络层
-    (2) 传输层
-    (3) 
+    (1) 网络层:ip len ttl source_ip target_ip
+    (2) 传输层:tcp sport dport
 ### 2.开启多线程处理函数
