@@ -11,4 +11,13 @@
     (1) 以太网数据包
     (1) 网络层:ip len ttl source_ip target_ip
     (2) 传输层:tcp sport dport
+### 5.邮件文字信息解析
+    host_name:主机名
+    mail_from:邮件发送方
+    mail_to:邮件接收方
+    x_mail:邮件客户端
+    mail_subject:邮件主题
+    mail_priority:邮件设置等级
+    message_id:邮件id
+    mail_content:邮件内容
 ### 2.开启多线程处理函数
