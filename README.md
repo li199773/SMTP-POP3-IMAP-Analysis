@@ -7,7 +7,7 @@
 ### 2.mysql数据库建立
     建立格式：年月日
 ### 3.遍历目标文件夹下面的全部pcapng文件
-### 4.dpkt解析
+### 4.`dpkt`解析
     (1) 以太网数据包
     (1) 网络层:ip len ttl source_ip target_ip
     (2) 传输层:tcp sport dport
@@ -20,5 +20,6 @@
     mail_priority:邮件设置等级
     message_id:邮件id
     mail_content:邮件内容
-### 6.mysql数据库存储
+### 6.图片信息判断
+### 6.`mysql`数据库存储
 ### 2.开启多线程处理函数
