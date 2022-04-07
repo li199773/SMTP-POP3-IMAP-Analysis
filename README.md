@@ -1,6 +1,6 @@
 # SMTP POP3 IMAP mail parsing MySQL distributed storage
 ****
-## 项目重要步骤：
+## 一.项目重要步骤：
 ### 1.判断是否指定日期路径传入
     sys.argv[2]指定格式 例如20211231
     sys.argv[2] == null时 默认处理当天数据
@@ -20,10 +20,10 @@
     mail_priority:邮件设置等级
     message_id:邮件id
     mail_content:邮件内容
-### 6.图片信息判断
+### 6.图片信息判断并且单独存储
     if tmp["mail_image"] != '':
         mail_image_str = tmp["mail_image"].split(">")[1]
         mail_image_download(mail_image_str, file_name)
-### 6.`mysql`数据库存储
-### 7.开启多线程处理函数
-## `MySQL`分库分表
+### 8.`mysql`数据库存储
+### 9.开启多线程处理函数
+## 二.`MySQL`分库分表
