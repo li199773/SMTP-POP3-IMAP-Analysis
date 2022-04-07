@@ -20,4 +20,5 @@
     mail_priority:邮件设置等级
     message_id:邮件id
     mail_content:邮件内容
+### 6.mysql数据库存储
 ### 2.开启多线程处理函数
