@@ -26,3 +26,4 @@
         mail_image_download(mail_image_str, file_name)
 ### 6.`mysql`数据库存储
 ### 7.开启多线程处理函数
+## `MySQL`分库分表
