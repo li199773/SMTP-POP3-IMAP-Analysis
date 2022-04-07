@@ -25,4 +25,4 @@
         mail_image_str = tmp["mail_image"].split(">")[1]
         mail_image_download(mail_image_str, file_name)
 ### 6.`mysql`数据库存储
-### 2.开启多线程处理函数
+### 7.开启多线程处理函数
