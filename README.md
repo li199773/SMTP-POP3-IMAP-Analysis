@@ -21,5 +21,8 @@
     message_id:邮件id
     mail_content:邮件内容
 ### 6.图片信息判断
+    if tmp["mail_image"] != '':
+        mail_image_str = tmp["mail_image"].split(">")[1]
+        mail_image_download(mail_image_str, file_name)
 ### 6.`mysql`数据库存储
 ### 2.开启多线程处理函数
