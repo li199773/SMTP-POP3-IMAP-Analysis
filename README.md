@@ -36,4 +36,13 @@
 ****
 ## 四.Program monitoring
 ### 因为MyCat涉及一个全局序列的问题，所以每天0时要重启Mycat服务
-    ./mycat restart
+        # 因为grep查看程序名也是进程，会混到查询信息里
+        programIsRunningCmd = "ps -ef|grep demo1.py|grep -v grep"
+        programIsRunningCmdAns = execCmd(programIsRunningCmd)
+        ansLine = programIsRunningCmdAns.split('\n')
+        # 判断如果返回行数>2则说明python脚本程序已经在运行，打印提示信息结束程序，否则运行脚本代码doSomething()
+        if len(ansLine) > 2:
+            print("programName have been Running")
+        else:
+            mycat_restart()
+            break
