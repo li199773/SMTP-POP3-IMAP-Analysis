@@ -34,6 +34,6 @@
 ## 三.定时调度
 ### crontab按照每10分钟进行调度一次，因为数据推送间隔并不是固定的。
 ****
-## 四.程序后台判断
+## 四.Program monitoring
 ### 因为MyCat涉及一个全局序列的问题，所以每天0时要重启Mycat服务
     ./mycat restart
