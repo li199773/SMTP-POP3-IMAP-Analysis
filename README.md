@@ -26,6 +26,8 @@
         mail_image_download(mail_image_str, file_name)
 ### 8.mysql数据库存储
 ### 9.开启多线程处理函数
+****
 ## 二.`MySQL`分库分表
 ### 按照`SMTP` `POP3` `IMAP`分成3个数据库存储在不同服务器，并且按照月份进行存储，每月按照日期分表
 ### 详情见`Distributed-MySQL`
+****
