@@ -9,8 +9,8 @@
 ### 3.遍历目标文件夹下面的全部pcapng文件
 ### 4.dpkt解析
     (1) 以太网数据包
-    (1) 网络层:ip len ttl source_ip target_ip
-    (2) 传输层:tcp sport dport
+    (1) 网络层:ip、len、ttl、source_ip、target_ip
+    (2) 传输层:tcp、sport、dport
 ### 5.正则表达式提取邮件文字信息解析
     host_name:主机名
     mail_from:邮件发送方
@@ -35,7 +35,7 @@
 ### crontab按照每10分钟进行调度一次，因为数据推送间隔并不是固定的。
 ****
 ## 四.Program monitoring
-### 因为MyCat涉及一个全局序列的问题，所以每天0时要重启Mycat服务
+### 因为MyCat涉及全局序列的问题，所以每天0时要重启Mycat服务
         # 因为grep查看程序名也是进程，会混到查询信息里
         programIsRunningCmd = "ps -ef|grep demo1.py|grep -v grep"
         programIsRunningCmdAns = execCmd(programIsRunningCmd)
