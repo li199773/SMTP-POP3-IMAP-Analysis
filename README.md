@@ -34,8 +34,8 @@
 ## 三.定时调度
 ### `crontab`按照每10分钟进行调度一次，因为数据推送间隔并不是固定的。
 ****
-## 四.Program monitoring
-### 因为MyCat涉及全局序列的问题，所以每天0时要重启Mycat服务
+## 四.`Program monitoring`
+### MyCat涉及全局序列的问题，所以每天0时要重启Mycat服务
         # 因为grep查看程序名也是进程，会混到查询信息里
         programIsRunningCmd = "ps -ef|grep demo1.py|grep -v grep"
         programIsRunningCmdAns = execCmd(programIsRunningCmd)
